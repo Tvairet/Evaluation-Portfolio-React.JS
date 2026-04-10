@@ -2,8 +2,9 @@ import React from "react";
 
 const Services = () => {
     return (
-        <main>
+        <main className="container">
             <h1>Mon offre de services</h1>
+            <h2>test</h2>
         </main>
     );
 };
