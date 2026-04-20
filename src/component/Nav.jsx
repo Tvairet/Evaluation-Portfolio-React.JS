@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
     return (
         <header>
-            <nav class="navbar navbar-expand-lg bg-secondary text-light text-uppercase fixed-top" id="mainNav">
+            <nav class="navbar navbar-expand-lg bg-dark text-light text-uppercase fixed-top" id="mainNav">
                 <div class="container">
                     <a class="navbar-brand text-light" href="#page-top">John Doe</a>
                     <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
