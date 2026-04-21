@@ -1,13 +1,17 @@
 import React from "react";
-import photo from "../img/john-doe-about.jpg"
+import photo from "../img/john-doe-about.jpg";
 
+function Home() {
 
-const Home = () =>{
     return (
         <main className="main">
             <section id="slider" >
             <h1>Bonjour, je suis John Doe</h1>
             <h2>Développeur web full stack</h2>
+                <a href="https://api.github.com/users/github-john-doe" target="blank">
+                    <button type="button" class="btn btn-danger">En savoir plus
+                    </button>
+                </a>
             </section>
             <section className="presentation">
                 <div className="propos">
@@ -16,7 +20,7 @@ const Home = () =>{
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Phasellus scelerisque facilisis nibh, vitae posuere dolor porta nec. Duis at mauris in velit condimentum blandit.
                         Nulla tempus est eget nulla facilisis mattis. Fringilla énée purus egestas ornare lobortis.
-                        Sed efficace magna non laoreet suscipit. Praesent porta risus eu tortor iaculis hendrerit.</p>
+                        Sed efficace magna non laoreet suscipit. Praesent porta risus eu tortor iaculis hendrerit.</p>        
                 </div>
                 <div className="competences">
                     <h3>Mes compétences</h3>
