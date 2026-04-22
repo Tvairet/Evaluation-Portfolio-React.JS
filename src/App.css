@@ -30,6 +30,9 @@ footer {
 
 .main {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #slider {
@@ -43,6 +46,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: 500px;
+  width: 100%;
   margin: 0;
   opacity: 0.9;
 }
@@ -93,4 +97,52 @@ a, .nav-link {
 
 .social img {
   color: #fff;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+}
+.banner img {
+  height: 200px;
+  width: 100%;
+}
+
+.tittle {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-bottom: solid #0d6efd;
+}
+
+.services {
+  margin-top: 40px;
+  height: 400px;
+  justify-items: center ;
+}
+
+.card {
+  height: 350px;
+  width: 300px;
+}
+
+.card img {
+  margin: 15px;
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+.card :hover {
+  box-shadow: #adb5bd 15px 15px 10px;
+  background-color: #efefef;
+}
+
+.card-body :hover {
+  box-shadow: none;
 }
