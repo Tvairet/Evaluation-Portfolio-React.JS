@@ -90,6 +90,16 @@ a, .nav-link {
   color: #fff;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #0d6efd;
+}
+
+.nav-link:active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .realisations {
   display: flex;
   flex-direction: column;
@@ -116,7 +126,7 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   align-content: center;
-  border-bottom: solid #0d6efd;
+  border-bottom: 5px solid #0d6efd;
 }
 
 .services {
@@ -126,23 +136,40 @@ h1, h2 {
 }
 
 .card {
-  height: 350px;
+  height: 400px;
   width: 300px;
-}
-
-.card img {
-  margin: 15px;
 }
 
 .card h5 {
   font-weight: bold;
+  margin-top: 10px;
 }
 
-.card :hover {
+.col :hover {
   box-shadow: #adb5bd 15px 15px 10px;
   background-color: #efefef;
 }
 
 .card-body :hover {
   box-shadow: none;
+}
+
+.card-footer .card-title .card-text img.card-img-top .text-body-secondary {
+  box-shadow: none;
+}
+
+.portfolio {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.col {
+  justify-items: center;
+}
+
+.btn-primary :hover {
+  opacity: 30%;
+  color: #0d6efd;
+  
 }
