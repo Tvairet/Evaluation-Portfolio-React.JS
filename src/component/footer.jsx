@@ -30,10 +30,10 @@ const Footer = () => {
         <div class="liens">
             <h4>Liens utiles</h4>
             <a href="/">Accueil</a>
-            <a href="../pages/Services">Services</a>
-            <a href="../pages/Portfolio">Portfolio</a>
-            <a href="../pages/Contact">Me contacter</a>
-            <a href="../pages/Mentions">Mentions légales</a>           
+            <a href="./Services">Services</a>
+            <a href="/Portfolio">Portfolio</a>
+            <a href="/Contact">Me contacter</a>
+            <a href="/Mentions">Mentions légales</a>           
         </div>
         <div class="realisations">
             <h4>Mes dernières réalisations</h4>
