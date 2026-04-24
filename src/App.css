@@ -127,6 +127,7 @@ h1, h2 {
   flex-direction: column;
   align-content: center;
   border-bottom: 5px solid #0d6efd;
+  margin: 30px;
 }
 
 .services {
@@ -232,5 +233,35 @@ address {
 }
 
 .contact span {
+  font-weight: bold;
+}
+
+.accordion-body a {
+  color: blue;
+  text-decoration: underline;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#collapseThree .accordion-body, #collapseTwo .accordion-body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+.list {
+  width: 1200px;
+  margin: 50px;
+}
+
+.accordion-body address {
+  width: 100%;
+  padding: 0;
+}
+
+.herbergeur-name {
   font-weight: bold;
 }
