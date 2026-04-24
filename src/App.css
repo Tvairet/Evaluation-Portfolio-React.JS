@@ -154,10 +154,6 @@ h1, h2 {
   box-shadow: none;
 }
 
-.card-footer .card-title .card-text img.card-img-top .text-body-secondary {
-  box-shadow: none;
-}
-
 .portfolio {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -172,4 +168,69 @@ h1, h2 {
   opacity: 30%;
   color: #0d6efd;
   
+}
+
+.tittle {
+  width: 850px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 80%;
+  height: 600px;
+  box-shadow: 5px 5px 10px;
+  margin-top: 20px; 
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  padding: 15px;
+  align-items: start; 
+  justify-content: space-between;
+}
+
+.form-contact h2, .map h2 {
+  border-bottom: 3px solid #0d6efd;
+  width: 100%;
+}
+
+.form-contact input {
+  min-width: 560px;
+}
+
+.form-contact button {
+  align-self: center;
+  border-radius: 10%;
+  text-align: center;
+  width: 68px;
+  background-color: blue;
+  color: #fff;
+}
+
+.map {
+  padding: 15px;
+  flex-basis: 50%;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: start;
+  text-align: start;
+  padding: 15px;
+}
+
+.map a {
+  color: black;
+}
+
+.contact span {
+  font-weight: bold;
 }
