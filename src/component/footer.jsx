@@ -37,12 +37,12 @@ const Footer = () => {
         </div>
         <div class="realisations">
             <h4>Mes dernières réalisations</h4>
-            <a href="../pages/Portfolio">Fresh Food</a>
-            <a href="../pages/Portfolio">Restaurent Akira</a>
-            <a href="../Portfolio">Espace bien-être</a>
-            <a href="../Portfolio">SEO</a>
-            <a href="../portfolio">Création d'une API</a>
-            <a href="../Portfolio">Maquette d'un site</a>
+            <a href="./Portfolio">Fresh Food</a>
+            <a href="./Portfolio">Restaurent Akira</a>
+            <a href="./Portfolio">Espace bien-être</a>
+            <a href="./Portfolio">SEO</a>
+            <a href="./portfolio">Création d'une API</a>
+            <a href="./Portfolio">Maquette d'un site</a>
         </div>
         </footer>
     );
