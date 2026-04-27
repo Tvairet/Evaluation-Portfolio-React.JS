@@ -6,10 +6,10 @@ import twitter from "../icons/twitter.png"
 
 const Footer = () => {
     return (
-        <footer>
-        <div class="adresse">
-        <h4>John Doe</h4>
+        <footer className="footer">
+        <div class="footer-adress">     
         <address>
+            <h4>John Doe</h4>
             40 rue Laure Diebold<br/>
             69009 Lyon, France <br/>
             <a href="tel:1020304050">10 20 30 40 50</a> <br/>

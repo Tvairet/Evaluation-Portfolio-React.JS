@@ -75,9 +75,18 @@ footer {
   text-align: left;
 }
 
-.adresse, .liens, .realisations {
+.footer-adress, .liens, .realisations {
   flex-basis: 33%;
   line-height: 1.2;
+}
+
+.social a :hover {
+  filter: brightness(2.3);
+  opacity: 0.8;
+}
+
+.footer a :hover {
+  font-weight: bold;
 }
 
 .liens {
@@ -200,9 +209,7 @@ h1, h2 {
   width: 100%;
 }
 
-.form-contact input {
-  min-width: 560px;
-}
+
 
 .form-contact button {
   align-self: center;
@@ -264,4 +271,52 @@ address {
 
 .herbergeur-name {
   font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar-brand {
+    flex-basis: 20%;
+  }
+  #navbarResponsive {
+    flex-basis: 80%;
+  }
+  .form-contact{
+    flex-basis: 50%;
+  }
+  .map {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+
+.footer {
+  flex-direction: column;
+  align-items: start;
+}
+.realisations{
+  align-items: start;
+}
+.list {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services {
+  height: 100%;
+}
+.contact {
+  flex-direction: column;
+  height: 100%;
+}
+iframe {
+  max-width: 100%;
+}
+textarea {
+  max-width: 100%;
+}
 }
